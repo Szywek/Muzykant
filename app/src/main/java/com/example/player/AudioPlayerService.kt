@@ -53,9 +53,9 @@ class AudioPlayerService : Service() {
     private var mediaSession: MediaSessionCompat? = null
     private var mediaSessionConnector: MediaSessionConnector? = null
 
-    private val PLAYBACK_CHANNEL_ID = "playback_channel_for_bski_player"
+    private val PLAYBACK_CHANNEL_ID = "playback_channel"
     private val PLAYBACK_NOTIFICATION_ID = 1
-    private val MEDIA_SESSION_TAG = "hello-world-media"
+    private val MEDIA_SESSION_TAG = "media"
     var songList: List<Song>? = null
     private lateinit var mContext: Context
     val TAG = "AudioPlayerService"
@@ -196,7 +196,7 @@ class AudioPlayerService : Service() {
         songList = querySongs(mContext)
         if (songList.isNullOrEmpty() ) {
             if (songList?.size!! < 2) {
-                Toast.makeText(mContext, "You need to have at least 2 song on your application\nConnecting to two remote files online\nRestart app required", Toast.LENGTH_LONG).show()
+                Toast.makeText(mContext, "You need to have at least 2 song on your application\nRestart app required", Toast.LENGTH_LONG).show()
                 return
             }
         }
