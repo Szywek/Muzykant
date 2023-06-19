@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <PreferenceCategory
+        app:title="Preferences"
+        >
+
+        <ListPreference
+            app:key="save_state_increment"
+            app:title="Rewind &amp; Forward Increment"
+            android:summary="Time skipped on swipe"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/increment"
+            app:entryValues="@array/increment_values"
+            app:dialogTitle="Increment seconds"
+            android:defaultValue="@string/default_increment"
+        />
+
+        <CheckBoxPreference
+            android:key="save_state_screen"
+            android:title="Keep screen on?"
+            android:summary="If checked then the screen will not timeout."
+        />
+        <CheckBoxPreference
+            android:key="swipe_skip_to_next_song"
+            android:title="Swipe skips entire song?"
+            android:summary="Change swipe left/right behavior. If checked swipes will skip entire song"
+
+        />
+
+    </PreferenceCategory>
+</PreferenceScreen>

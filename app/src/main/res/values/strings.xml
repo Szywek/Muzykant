@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="app_name">Muzykant</string>
+    <string name="playback_channel_name">Muzykant</string>
+    <string name="playback_channel_description">Muzykant</string>
+    <string name="toolbar_name">Music Player</string>
+    <string name="toolbar_name_browse">Browse</string>
+
+    <string name="song_frag_tag">songsTag</string>
+    <string name="player_frag_tag">playerTag</string>
+    <string name="pref_frag_tag">preferenceTag</string>
+    <string name="song_bundle">song_bundle</string>
+    <string name="song_position">song_position</string>
+    <string name="play_this_position">play_this_position</string>
+
+    <string name="sort_artist_asc">sort_artist_asc</string>
+    <string name="sort_artist_desc">sort_artist_desc</string>
+    <string name="sort_title_asc">sort_title_asc</string>
+    <string name="sort_title_desc">sort_title_desc</string>
+    <string name="sort_recent_most">sort_recent_most</string>
+    <string name="sort_recent_least">sort_recent_least</string>
+
+    <string name="save_state_song_index_key">save_state_song_index_key</string>
+    <string name="save_state_song_playtime">save_state_song_playtime</string>
+    <string name="save_state_slop">save_state_slop</string>
+    <string name="save_state_skip_zone">save_state_skip_zone</string>
+    <string name="save_state_screen">save_state_screen</string>
+
+
+    <string name="save_state_sort_key">save_state_sort_key</string>
+    <string-array name="sort_keys_array">
+        <item>Artist Ascending</item>
+        <item>Artist Descending</item>
+        <item>Title Ascending</item>
+        <item>Title Descending</item>
+        <item>Newest</item>
+        <item>Oldest</item>
+    </string-array>
+
+    <string-array name="sort_values">
+        <item>@string/sort_artist_asc</item>
+        <item>@string/sort_artist_desc</item>
+        <item>@string/sort_title_asc</item>
+        <item>@string/sort_title_desc</item>
+        <item>@string/sort_recent_most</item>
+        <item>@string/sort_recent_least</item>
+    </string-array>
+
+    <string name="save_state_increment">save_state_increment</string>
+    <string name="default_increment">15000</string>
+    <string name="default_slop">100</string>
+    <string name="slop_max">300</string>
+    <string-array name="increment">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>25 seconds</item>
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+
+    <string-array name="increment_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>@string/default_increment</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>30000</item>
+        <item>45000</item>
+        <item>60000</item>
+    </string-array>
+
+    <string name="swipe_skip_to_next_song">swipe_skip_to_next_song</string>
+<!--    <string name="swipe_skip_couple_seconds">swipe_skip_couple_seconds</string>-->
+
+</resources>

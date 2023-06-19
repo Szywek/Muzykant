@@ -1,0 +1,76 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActStyle">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >match_parent</item>
+        <item name="android:background" >@color/colorMainAct</item>
+    </style>
+
+    <style name="SongItemText">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:ellipsize" >end</item>
+        <item name="android:maxLines" >1</item>
+        <item name="android:textSize" >20sp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:textColor" >@color/colorSoftWhite</item>
+        <item name="android:text" >Main text"</item>
+    </style>
+    <style name="SongItemSubtext">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:ellipsize" >end</item>
+        <item name="android:maxLines" >1</item>
+        <item name="android:layout_marginStart" >8dp</item>
+        <item name="android:layout_marginLeft" >8dp</item>
+        <item name="android:textSize" >15sp</item>
+        <item name="android:textColor" >@color/colorSoftWhite</item>
+        <item name="android:text" >Subtext"</item>
+    </style>
+    <style name="SongItemImage">
+        <item name="android:layout_width" >50dp</item>
+        <item name="android:layout_height" >50dp</item>
+        <item name="android:layout_marginEnd" >4dp</item>
+        <item name="android:layout_marginRight" >4dp</item>
+        <item name="android:padding" >0dp</item>
+        <item name="android:src" >@drawable/ic_audiotrack_white</item>
+    </style>
+
+
+    <style name="SongList">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="cardCornerRadius" >0dp</item>
+        <item name="cardBackgroundColor">@color/colorItemBackground</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="ToolStyle">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:elevation" >4dp</item>
+        <item name="android:background" >@color/colorToolbar</item>
+    </style>
+    <style name="NavStyle">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >65dp</item>
+        <item name="android:layout_alignParentBottom" >true</item>
+        <item name="android:background" >@color/colorToolbar</item>
+        <item name="itemTextColor" >@drawable/nav_item_background</item>
+        <item name="itemIconTint" >@drawable/nav_item_background</item>
+    </style>
+    <style name="leftBar">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:textSize" >15sp</item>
+        <item name="android:textColor" >#000000</item>
+    </style>
+    <style name="PreferenceTheme" parent="@style/AppTheme">
+        <item name="android:background">#FFEAEAEA</item>
+    </style>
+</resources>

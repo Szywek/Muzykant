@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/search_bar_songs"
+        android:icon="@drawable/ic_search_white"
+        android:title="search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+    />
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_alpha"
+        android:title="Sort"
+        app:showAsAction="never"
+    >
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/sortGroup"
+                >
+                <item
+                    android:id="@+id/sortArtistAscId"
+                    android:title="Artist Ascending"
+
+                />
+                <item
+                    android:id="@+id/sortArtistDescId"
+                    android:title="Artist Descending"
+                />
+                <item
+                    android:id="@+id/sortTitleAscId"
+                    android:title="Title Ascending"
+                />
+                <item
+                    android:id="@+id/sortTitleDescId"
+                    android:title="Title Descending"
+                />
+
+                <item
+                    android:id="@+id/sortDateRecentId"
+                    android:title="Newest"
+                    />
+                <item
+                    android:id="@+id/sortDateOldestId"
+                    android:title="Oldest"
+                />
+            </group>
+        </menu>
+        </item>
+    <item
+        android:id="@+id/settingsId"
+        android:title="Settings"
+        app:showAsAction="never" >
+    </item>
+
+
+</menu>

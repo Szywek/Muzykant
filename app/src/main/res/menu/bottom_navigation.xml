@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_play_circle_outline"
+        android:title="Player"
+        />
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/ic_folder_open"
+        android:title="Browse" />
+
+</menu>
